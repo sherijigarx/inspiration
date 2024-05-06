@@ -20,9 +20,9 @@ from lib.globals import service_flags
 from classes.ttm import MusicGenerationService
 from classes.aimodel import AIModelService
 
-# Check if the 'app' folder exists
-if os.path.exists(os.path.join(project_root, 'app')):
-    from app.fastapi_server import create_app
+# # Check if the 'app' folder exists
+# if os.path.exists(os.path.join(project_root, 'app')):
+#     from app.fastapi_server import create_app
 
 
 class AIModelController():
